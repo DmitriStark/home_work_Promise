@@ -48,4 +48,14 @@ function calculateSquare(prom){
   });
   return newP
 }
+function calculateSquare2(number) {
+//   return new Promise((resolve, reject) => {
+//     if (number < 0) {
+//       reject(new Error('there is no way to square root a negative number'));
+//     } else {
+//       resolve(Math.sqrt(number));
+//     }
+//   });
+// }
 calculateSquare(prompt("enter num"))
+calculateSquare2(prompt("enter num"))
